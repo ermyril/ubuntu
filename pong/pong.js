@@ -89,7 +89,7 @@ class Rectangle {
     draw = () => {
         this.ctx.fillRect(this.x, this.y, this.width, this.heigh);
 
-        let imageData = this.ctx.createImageData(this.width, this.height);
+        /*let imageData = this.ctx.createImageData(this.width, this.height);
         console.log(imageData)
         const frame = new Frame(imageData);
 
@@ -97,7 +97,7 @@ class Rectangle {
             for (let h = 0; h < this.heigh; h++) {
                 frame.setPixel(w, h, new Color(173, 194, 210, (w * h)));
             }
-        }
+        }*/
     }
 }
 
